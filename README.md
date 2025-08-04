@@ -6,4 +6,4 @@
 [![GIT Certificate](GIT/5474665_Ananya_GIT_certificate.png)]
 
 ## 📝 C Programming  
-[![C Programming Certificate](C Programming/5474665_Ananya_C_Programming.jpg)]
+[![C Programming Certificate]( C Programming/5474665_Ananya_C_Programming.jpg)]
