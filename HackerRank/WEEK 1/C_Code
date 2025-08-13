@@ -1,5 +1,5 @@
 WEEK 1 - 4th August (PlusMinus)
-#include <stdio.h>
+1. #include <stdio.h>
 
 void plusMinus(int arr[], int n) {
     int positive = 0, negative = 0, zero = 0;
@@ -35,3 +35,38 @@ int main() {
 
     return 0;
 }
+
+2.#include <stdio.h>
+
+int main() {
+    int arr[5];
+    int i;
+    long sum = 0;
+    int min, max;
+
+    for (i = 0; i < 5; i++) {
+        scanf("%d", &arr[i]);
+        sum = sum + arr[i];
+    }
+
+    min = arr[0];
+    max = arr[0];
+
+    for (i = 1; i < 5; i++) {
+        if (arr[i] < min) {
+            min = arr[i];
+        }
+        if (arr[i] > max) {
+            max = arr[i];
+        }
+    }
+
+    long minSum = sum - max;
+    long maxSum = sum - min;
+
+    printf("%ld %ld\n", minSum, maxSum);
+
+    return 0;
+}
+
+3.
