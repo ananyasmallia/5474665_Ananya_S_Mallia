@@ -1,5 +1,5 @@
-
-1. #include <stdio.h>
+1.PLUS_MINUS 
+ #include <stdio.h>
 
 void plusMinus(int arr[], int n) {
     int positive = 0, negative = 0, zero = 0;
@@ -36,7 +36,8 @@ int main() {
     return 0;
 }
 
-2.#include <stdio.h>
+2.MIN_MAX
+#include <stdio.h>
 
 int main() {
     int arr[5];
@@ -69,7 +70,8 @@ int main() {
     return 0;
 }
 
-3.#include <stdio.h>
+3.Time_Conversion
+#include <stdio.h>
 #include <string.h>
 
 char* timeConversion(const char* s) {
@@ -104,7 +106,8 @@ int main(void) {
 
     printf("%s\n", timeConversion(s));
 
-4.#include <stdio.h>
+4.Sparse_array
+#include <stdio.h>
 #include <string.h>
 
 #define MAX_STR_LEN 100   // Maximum length of each string
@@ -143,7 +146,8 @@ int main() {
 }
 
 
-5.#include <stdio.h>
+5.Lonely_Integer
+#include <stdio.h>
 
 int lonelyinteger(int a[], int n) {
     int result = 0;
@@ -171,7 +175,8 @@ int main() {
     return 0;
 }
 
-6.#include <stdio.h>
+6.Flipping_Bits
+#include <stdio.h>
 
 unsigned int flippingBits(unsigned int n) {
     return ~n;  // Bitwise NOT flips all bits
@@ -191,7 +196,8 @@ int main() {
     return 0;
 }
 
-7.#include <stdio.h>
+7.Diagonal_Difference
+#include <stdio.h>
 #include <stdlib.h> // for abs()
 
 int diagonalDifference(int arr[100][100], int n) {
@@ -225,7 +231,8 @@ int main() {
     return 0;
 }
 
-8.#include <stdio.h>
+8.Counting_sort
+#include <stdio.h>
 
 int main() {
     int n;
@@ -250,7 +257,8 @@ int main() {
 }
 
 
-9.#include <stdio.h>
+9.Pangrams
+#include <stdio.h>
 
 int main() {
     int n;
@@ -274,7 +282,8 @@ int main() {
     return 0;
 }
 
-10. #include <stdio.h>
+10.Permuting_2arrays
+ #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
 
@@ -320,7 +329,8 @@ int main() {
     return 0;
 }
 
-11. #include <stdio.h>
+11.Sub_Array 
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
