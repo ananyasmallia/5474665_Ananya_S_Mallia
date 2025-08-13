@@ -1,4 +1,4 @@
-WEEK 1 - 4th August (PlusMinus)
+
 1. #include <stdio.h>
 
 void plusMinus(int arr[], int n) {
